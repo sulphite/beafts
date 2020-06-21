@@ -34,7 +34,6 @@ a {    color: seagreen;}
     display: flex;
     flex-direction: column;
     margin: 4%;
-    text-transform: uppercase;
 }
 
 #credit {
@@ -43,7 +42,6 @@ a {    color: seagreen;}
     font-style: italic;
     color: #555;
     margin-top:20px;
-    text-transform: lowercase;
 }
 
 img {max-width: 100%;}
