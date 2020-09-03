@@ -26,10 +26,6 @@ button:focus {
     outline: none;
 }
 
-button:hover {
-    background-color: hsl(50,50%,70%);
-}
-
 button:active {
     transform: translateY(2px);
     box-shadow: 0 2px 0 hsl(50,70%,50%);
