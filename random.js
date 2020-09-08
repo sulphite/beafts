@@ -22,13 +22,11 @@ function releafeTheBeaft() {
         "tail": getRandom(data.tail)
     };
     let myString = "";
-    console.log(beaft["horns"][0]);
     for (const [trait, desc] of Object.entries(beaft)) {
         total = total + desc[1];
         myString = myString + `<span class="trait">${trait}:</span> <span class="desc">${desc[0]}</span>`;
     };
     document.getElementById("content").innerHTML = myString;
     document.getElementById("total").innerHTML = `<span class="total">total cost: ${total}`
-    console.log(total);
     return;
 };
