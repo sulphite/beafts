@@ -33,6 +33,7 @@ button {
     background-color: hsl(50,80%,70%);
     cursor: pointer;
     box-shadow: 1px 5px 0 hsl(50,70%,55%);
+    margin-bottom: 1.5em;
 }
 
 button:focus {
@@ -40,12 +41,22 @@ button:focus {
 }
 
 button:hover {
-    background-color: hsl(50,70%,70%);
+    background-color: hsl(50,75%,65%);
 }
 
 button:active {
     transform: translateY(2px);
     box-shadow: 1px 3px 0 hsl(50,70%,50%);
+}
+
+#brap {
+    background-color: hsl(100,80%,70%);
+    box-shadow: 1px 5px 0 hsl(100,70%,50%);
+}
+
+#brap:hover {background-color: hsl(100,75%,65%)}
+#brap:active {
+    box-shadow: 1px 3px 0 hsl(100,70%,50%);
 }
 
 .deets {
