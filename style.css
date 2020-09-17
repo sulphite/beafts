@@ -59,6 +59,7 @@ button:active {
     box-shadow: 1px 3px 0 hsl(100,70%,50%);
 }
 
+
 .deets {
     background-color:hsl(0,0%,75%);
     padding: 2em;
@@ -68,7 +69,7 @@ button:active {
 }
 
 #content {
-    margin-top: 1.5em;
+    min-width: 200px;
     display: grid;
     grid-template-columns: 9fr 10fr;
     grid-auto-rows: 1.5rem;
